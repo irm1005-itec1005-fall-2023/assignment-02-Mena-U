@@ -11,9 +11,31 @@ body {
   align-items: center;
 }
 
-h1 {
+.header-container {
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background: color #ffff00;
+  color:black;
+  border-radius: 2rem;
+}
+.logo {
+  width: 700px;
+  height: 600px;
+  margin: 1;
+  padding: 1;
+  object-fit: cover;
+}
+.text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 10rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: centre;
+}
+h2 {
   font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+  text-align: centre;
 }
